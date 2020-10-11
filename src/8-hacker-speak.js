@@ -1,3 +1,11 @@
 export const hackerSpeak = (words) => {
-  return words
+  const hackerArray = [...words].forEach((item) => {
+    if (item === 'a')
+    return '4'
+
+  })
+  return hackerArray
 }
+
+
+//reg ex
